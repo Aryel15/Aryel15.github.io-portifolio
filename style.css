@@ -228,6 +228,13 @@ hr{
     align-items: center;
     margin-bottom: 100px;
 }
+.projetos h2{
+    text-align:center;
+    color:#fff;
+}
+.projetos hr{
+    margin:0 auto;   
+}
 .cards {
     margin-top: 30px;
     display: flex;
