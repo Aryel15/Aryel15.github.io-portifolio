@@ -262,7 +262,6 @@ hr{
 .card:hover{
     transform: scale(1.1);
     cursor: pointer;
-    box-shadow: 0px 0px 15px #29005aa3;
 }
 .card a .fa-solid, .fa-regular, .fa-display-code{
     margin-top: 20px;
