@@ -12,6 +12,7 @@ body{
 .h1, h1 {
     font-size: calc(2.2rem + 1.5vw);
     animation: blinkTextCursor 800ms steps(44) infinite normal;
+    height: 90px;
 }
 .title{
     background-image: url(imgs/bg.jpg);
