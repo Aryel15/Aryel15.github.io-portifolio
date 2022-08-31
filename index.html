@@ -9,6 +9,7 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/9162c26606.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Aryel Anne</title>
 </head>
@@ -48,7 +49,7 @@
         </div>
       </nav>
         <h1 class="typedtext"></h1>
-        <a href="https://api.whatsapp.com/send/?phone=5511951926732&text&app_absent=0" class="neon-btn">Entre em contato!</a><br>
+        <a href="#contato" class="neon-btn">Entre em contato!</a><br>
         <a href="#quemsou" class="seta"><i class="fa-solid fa-chevron-down"></i></a>
       </main>
       <section class="quemsou" id="quemsou">
@@ -79,7 +80,7 @@
         <div class="cards">
             <a href="https://arywebdesign.ga/posts.html" target="_blank" rel="noopener noreferrer">
                 <div class="card">
-                    <img src="imgs/2.png" alt="post pizzaria">
+                    <i class="fa-regular fa-image"></i>
                     <a href="https://arywebdesign.ga/posts.html">
                         <button type="button" class="btn btn-primary">Posts</button>
                     </a>
@@ -87,23 +88,30 @@
             </a>
             <a href="https://arywebdesign.ga/sites.html" target="_blank" rel="noopener noreferrer">
                 <div class="card">
-                    <img src="imgs/3.png" alt="site">
+                    <i class="fa-solid fa-laptop-code"></i>
                     <a href="https://arywebdesign.ga/sites.html">
                         <button type="button" class="btn btn-primary">Sites</button>
                     </a>
                 </div>  
             </a>
-            <a href="https://arywebdesign.ga/videos.html" target="_blank" rel="noopener noreferrer">
+            <a href="https://arywebdesign.ga/videos.html" target="_blank" rel="noopener noreferrer" >
                 <div class="card">
-                    <video width="200px" height="200px" autoplay>
-                        <source src="imgs/14.mp4" type="video/mp4">
-                    </video>
+                    <i class="fa-solid fa-clapperboard"></i>
                     <a class="video" href="https://arywebdesign.ga/videos.html">
                         <button type="button" class="btn btn-primary">Videos</button>
                     </a>
                 </div>  
             </a>
         </div>
+      </section>
+      <section id="contato" class="contato">
+        <hr>
+        <h2>Entre em contato</h2>
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="Email">
+        <input type="tel" placeholder="Telefone">
+        <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+        <input type="submit" value="Enviar">
       </section>
       <div class="up">
         <a href="#"><i class="fa-solid fa-circle-chevron-up"></i></a>

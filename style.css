@@ -170,7 +170,6 @@ hr{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 100px;
     height: 400px;
 }
 .skill{
@@ -234,7 +233,8 @@ hr{
     color:#fff;
 }
 .projetos hr{
-    margin:0 auto;   
+    margin:0 auto; 
+    margin-top: 100px;  
 }
 .cards {
     margin-top: 30px;
@@ -250,42 +250,72 @@ hr{
     align-items: center;
     flex: wrap;
     width: 220px;
-    height: 270px;
+    height: 250px;
     margin: 10px 15px;
-    border: 2px solid #ffffff;
+    border: 2px solid #14002d;
     /*box-shadow: inset 0 0 22px #d914d6, 0 0 22px #d914d6;*/
-    box-shadow: 0px 3px 5px rgba(163, 163, 163, 0.27);
-    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 3px 5px #14002d5f;
+    background-color: #14002d;
     border-radius: 10px;
     transition: 0.7s;
 }
-.card img, .card video {
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-    margin: 10px 10px;
-    border: #fff 2px solid;
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0px 0px 15px #29005aa3;
 }
-.card video{
-    margin-bottom: 5px;
+.card a .fa-solid, .fa-regular, .fa-display-code{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 8rem;
+    color: #430095;
 }
 .btn {
-    background-color: #10032000;
+    background-color: #430095;
     margin: 0 10px;
-    color: #d914d6;
-    border: 2px solid #d914d6;
-    box-shadow: inset 0 0 10px #d914d6, 0 0 10px #d914d6;
-    width: 200px;
+    color: #fff;
+    border: 2px solid #430095;
+    width: 160px;
     transition: 0.7s;
 }
 .btn:hover{
-    border: 2px solid #d914d6;
-    background-color: #d914d6;
+    border: 2px solid #430095;
+    background-color: #430095;
     transition: 0.7s;
-    box-shadow: inset 0 0 50px #d914d6, 0 0 50px #d914d6;
+}
+.contato{
+    padding: 100px 20px;
+    background-color: #14002d;
+    color: #fff;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+.contato input, textarea{
+    width: 40vw;
+    margin: 10px;
+    border: #430095 2px solid;
+    padding: 5px;
+    background: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.contato textarea{
+    height: 120px;
+}
+.contato input[type=submit]{
+    background-color: #430095;
+    color: #fff;
+    transition: 0.7s;
+}
+.contato input[type=submit]:hover{
+    box-shadow: 0px 0px 15px #4b00a7cc;
+    transition: 0.7s;
 }
 footer{
-    margin-top: 100px;
+    margin-top: 0px;
     padding-bottom: 50px;
     color: #fff;
     text-align: center;
@@ -336,6 +366,9 @@ footer{
     }
     .quemsou img{
         width: 50%;
+    }
+    .contato input, textarea{
+        width: 80vw;
     }
 }
 @media(max-width:420px){
