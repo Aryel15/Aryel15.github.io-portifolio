@@ -1,8 +1,17 @@
 body{
     background-color: #100320;
 }
+@keyframes blinkTextCursor {
+    from {
+      border-right-color: black;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
 .h1, h1 {
     font-size: calc(2.2rem + 1.5vw);
+    animation: blinkTextCursor 800ms steps(44) infinite normal;
 }
 .title{
     background-image: url(imgs/bg.jpg);
@@ -211,7 +220,7 @@ hr{
     color: #db2b2c;
 }
 
-.portifolio{
+.projetos{
     margin: 0 auto;
     color: #fff;
     display: flex;
@@ -225,7 +234,7 @@ hr{
     justify-content: center;
     flex-wrap: wrap;
 }
-.portifolio a, a:active, a:link, a:visited {
+.projetos a, a:active, a:link, a:visited {
     text-decoration: none;
 }
 .card {
